@@ -31,7 +31,7 @@ $(document).ready(function(){
         $('#screen2').show();
     });
 
-    $('select').click(function(){
+    $('select').change(function(){
         console.log($(this).val());
         switch($(this).val()){
             //left select
