@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang= en>
+    <head>
+        <title>Dojo_Arena</title>
+        <link rel="stylesheet" type="text/css" href="dojo_arena.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id='wrapper'>
+            <div id='screen1'>
+                <div id='mainselector'>
+                    <h1>Select Arena</h1>
+                    <div id='buttons'>
+                        <button alt-data='beach'>beach</button>
+                        <button alt-data='planet'>planet</button>
+                        <button alt-data='dojo'>dojo</button>
+                        <button alt-data='forest'>forest</button>
+                        <button alt-data='matrix'>matrix</button>
+                        <button alt-data='snow'>snow</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id='screen2'>
+                <div id='left'>
+                    <div id='player1'></div>
+                </div>
+                <div id='center'>
+                    <div id='playerselect'>
+                        <h2>Select Players</h2>
+                        <div id='selection'>
+                            <select>
+                                <option selected='selected'>Select Ninja</option>
+                                <option value='lRaph'>Raphael</option>
+                                <option value='lLeo'>Leonardo</option>
+                                <option value='lDonny'>Donatello</option>
+                                <option value='lMikey'>Michaelangelo</option>
+                            </select>
+                            <select>
+                                <option selected='selected'>Select Ninja</option>
+                                <option value='rRaph'>Raphael</option>
+                                <option value='rLeo'>Leonardo</option>
+                                <option value='rDonny'>Donatello</option>
+                                <option value='rMikey'>Michaelangelo</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div id='right'>
+                    <div id='player2'></div>
+                </div>
+            </div>
+        </div>
+        <script src="dojo_arena.js"></script>
+    </body>
+</html>
